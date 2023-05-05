@@ -8,8 +8,8 @@ namespace SecureAPiAut0.Controllers;
 public class SecureApiDemo: ControllerBase
 {
     const string PUBLIC = "No authentication needed";
-    const string PRIVATE = "Authentication needed";
-    const string READ_SCOPE = "Authentication and read:messages needed";
+    const string PRIVATE = "Authentication successful";
+    const string READ_SCOPE = "Authentication and read:messages scope successful";
     
     [HttpGet("public")]
     public IActionResult Public() =>
@@ -26,11 +26,10 @@ public class SecureApiDemo: ControllerBase
         Ok(new { Message = READ_SCOPE });
     
     // This is a helper action. It allows you to easily view all the claims of the token.
-    
+
     [HttpGet("claims")]
-    public IActionResult Claims()
-    {
-        return Ok(
-            User.Claims.Select(c => new { c.Type, c.Value })
-        ); }
+    public IActionResult Claims() =>
+        Ok(
+            User.Claims.Select(c => new{c.Type, c.Value})
+        );
 }
