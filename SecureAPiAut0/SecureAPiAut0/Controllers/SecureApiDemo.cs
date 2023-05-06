@@ -32,4 +32,9 @@ public class SecureApiDemo: ControllerBase
         Ok(
             User.Claims.Select(c => new{c.Type, c.Value})
         );
+    
+    [HttpPost("test")]
+    [Authorize]
+    public IActionResult Test([FromBody] string test) =>
+        Ok(new { Message = test });
 }
