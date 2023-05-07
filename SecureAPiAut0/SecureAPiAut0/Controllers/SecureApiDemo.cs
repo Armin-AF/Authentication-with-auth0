@@ -37,4 +37,14 @@ public class SecureApiDemo: ControllerBase
     [Authorize]
     public IActionResult Test([FromBody] string test) =>
         Ok(new { Message = test });
+    
+    [HttpPost("test-scoped")]
+    [Authorize("read:messages")]
+    public IActionResult TestScoped([FromBody] string test) =>
+        Ok(new { Message = test });
+    
+    [HttpPut("test")]
+    [Authorize]
+    public IActionResult TestPut([FromBody] string test) =>
+        Ok(new { Message = test });
 }
