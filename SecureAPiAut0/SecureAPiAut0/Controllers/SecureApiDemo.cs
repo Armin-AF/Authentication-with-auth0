@@ -10,7 +10,8 @@ public class SecureApiDemo: ControllerBase
     const string PUBLIC = "No authentication needed";
     const string PRIVATE = "Authentication successful";
     const string READ_SCOPE = "Authentication and read:messages scope successful";
-    
+    const string WRITE_SCOPE = "Authentication and write:messages scope successful";
+
     [HttpGet("public")]
     public IActionResult Public() =>
         Ok(new { Message = PUBLIC });
