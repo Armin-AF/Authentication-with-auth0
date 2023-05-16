@@ -21,6 +21,7 @@ To run this project, you will need the following:
 ```
 - Run the application. You can do this using the command-line interface or your IDE. The application will start on http://localhost:5000.
 - To test the application's endpoints, use an HTTP client like Postman or cURL. There are three endpoints available:
+
 . GET api/public: Returns a public message.
 . GET api/private: Returns a private message that requires authentication.
 . GET api/private-scoped: Returns a message that requires authentication and the read:messages scope.
@@ -30,3 +31,4 @@ You can authenticate by including an Authorization header with a valid JWT token
 
 ## More Information
 For more information on using Auth0 in ASP.NET Core, see the official documentation.
+https://auth0.com/docs
