@@ -1,0 +1,15 @@
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/bin/Debug/net7.0/CobolTest
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/bin/Debug/net7.0/CobolTest.deps.json
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/bin/Debug/net7.0/CobolTest.runtimeconfig.json
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/bin/Debug/net7.0/CobolTest.dll
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/bin/Debug/net7.0/CobolTest.pdb
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.csproj.AssemblyReference.cache
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.AssemblyInfoInputs.cache
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.AssemblyInfo.cs
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.csproj.CoreCompileInputs.cache
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.dll
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/refint/CobolTest.dll
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.pdb
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/CobolTest.genruntimeconfig.cache
+/Users/rminafa/Projects/Authentication-with-auth0/CobolTest/CobolTest/obj/Debug/net7.0/ref/CobolTest.dll
